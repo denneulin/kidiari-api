@@ -21,6 +21,9 @@
   "routes": {
   },
   "files": {
+    "loopback#static": {
+      "params": "$!../coverage/"
+    }
   },
   "final": {
     "loopback#urlNotFound": {}

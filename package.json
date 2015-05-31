@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
-    "pretest": "jshint ."
+    "pretest": "jshint .",
+    "pretest-travis": "jshint .",
+    "test": "./node_modules/mocha/bin/mocha ./test/server/*",
+    "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/server/*"
   },
   "dependencies": {
     "async": "^1.0.0",
@@ -20,7 +23,11 @@
     "loopback-explorer": "^1.1.0"
   },
   "devDependencies": {
-    "jshint": "^2.5.6"
+    "istanbul": "^0.3.14",
+    "jshint": "^2.5.6",
+    "mocha": "^2.2.5",
+    "should": "^6.0.3",
+    "supertest": "^1.0.1"
   },
   "repository": {
     "type": "",
