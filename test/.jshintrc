@@ -16,5 +16,14 @@
   "unused": false,
   "trailing": true,
   "sub": true,
-  "maxlen": 130
+  "maxlen": 130,
+  "globals": {
+    /* MOCHA */
+    "describe": false,
+    "it": false,
+    "before": false,
+    "beforeEach": false,
+    "after": false,
+    "afterEach": false
+  }
 }
