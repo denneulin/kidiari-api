@@ -1,0 +1,30 @@
+{
+  "name": "Relative",
+  "base": "PersistedModel",
+  "strict": true,
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "relationType": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "member": {
+      "type": "belongsTo",
+      "model": "Member",
+      "foreignKey": ""
+    },
+    "kid": {
+      "type": "belongsTo",
+      "model": "Kid",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": []
+}

@@ -14,7 +14,7 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "kidiariDevDs"
   },
   "AccessToken": {
     "dataSource": "db",
@@ -25,11 +25,27 @@
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "kidiariDevDs",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "kidiariDevDs",
     "public": false
+  },
+  "Kid": {
+    "dataSource": "kidiariDevDs",
+    "public": true
+  },
+  "Invitation": {
+    "dataSource": "kidiariDevDs",
+    "public": true
+  },
+  "Member": {
+    "dataSource": "kidiariDevDs",
+    "public": true
+  },
+  "Relative": {
+    "dataSource": "kidiariDevDs",
+    "public": true
   }
 }

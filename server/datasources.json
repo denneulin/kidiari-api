@@ -2,5 +2,14 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "kidiariDevDs": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "kidiari-sl-dev",
+    "username": "",
+    "password": "",
+    "name": "kidiariDevDs",
+    "connector": "mongodb"
   }
 }
