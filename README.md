@@ -1,7 +1,7 @@
 # Kidiari API
 
 [![Build Status](https://travis-ci.org/denneulin/kidiari-api.svg?branch=master)](https://travis-ci.org/denneulin/kidiari-api)
-[![Coverage Status](https://coveralls.io/repos/denneulin/kidiari-api/badge.svg)](https://coveralls.io/r/denneulin/kidiari-api)
+[![Coverage Status](https://coveralls.io/repos/denneulin/kidiari-api/badge.svg?branch=master)](https://coveralls.io/r/denneulin/kidiari-api?branch=master)
 
 ### Test execution
 ```sh
