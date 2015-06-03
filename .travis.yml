@@ -1,11 +1,7 @@
 language: node_js
 node_js:
  - "0.12"
- - "0.11"
- - "0.10"
  - "iojs"
- - "iojs-v2.0"
- - "iojs-v1.0.4"
 services:
  - mongodb
 script: "npm run-script test-travis"
