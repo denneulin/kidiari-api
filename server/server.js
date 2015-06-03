@@ -3,6 +3,7 @@ var boot = require('loopback-boot');
 
 var app = module.exports = loopback();
 
+/* istanbul ignore next */
 app.start = function() {
   // start the web server
   return app.listen(function() {
@@ -11,6 +12,7 @@ app.start = function() {
   });
 };
 
+/* istanbul ignore next */
 // Bootstrap the application, configure models, datasources and middleware.
 // Sub-apps like REST API are mounted via boot scripts.
 boot(app, __dirname, function(err) {
