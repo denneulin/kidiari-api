@@ -107,7 +107,7 @@ describe('REST', function() {
 
             json('delete', '/api/members/' + res.body.userId)
               .set('Authorization', res.body.id)
-              .expect(204)
+              .expect(200)
               .end(done);
           });
       });
@@ -207,7 +207,7 @@ describe('REST', function() {
 
             json('delete', '/api/members/' + res.body.userId)
               .set('Authorization', res.body.id)
-              .expect(204)
+              .expect(200)
               .end(done);
           });
       });

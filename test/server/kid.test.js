@@ -133,19 +133,19 @@ describe('REST', function() {
         function(cb) {
           json('delete', '/api/members/' + memberId)
             .set('Authorization', token.id)
-            .expect(204)
+            .expect(200)
             .end(cb);
         },
         function(cb) {
           json('delete', '/api/kids/' + kidId)
             .set('Authorization', token.id)
-            .expect(204)
+            .expect(200)
             .end(cb);
         },
         function(cb) {
           json('delete', '/api/relatives/' + relativeId)
             .set('Authorization', token.id)
-            .expect(204)
+            .expect(200)
             .end(cb);
         }
       ], done);
